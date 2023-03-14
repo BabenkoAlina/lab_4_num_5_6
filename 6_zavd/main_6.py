@@ -26,7 +26,7 @@ ghost.set_conversation("-Bark! Bark! Grrr...")
 ghost.set_weakness("bone")
 yard.set_character(ghost)
 
-vincent = cemetery.Enemy("Young Vincent", "Forever young vampire")
+vincent = cemetery.Enemy("Vincent", "Forever young vampire")
 vincent.set_conversation("-Are you ready for death, my dear?")
 vincent.set_weakness("garlic")
 second.set_character(vincent)
