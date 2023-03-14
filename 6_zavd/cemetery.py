@@ -99,7 +99,7 @@ class Character:
         if item == self.weakness:
             global COUNT
             COUNT += 1
-            print(f"You killed {self.name} off with the {self.weakness}")
+            print(f"You killed {self.name} with the {self.weakness}")
             return True
         print(f"{self.name} punched you, looser")
         return False
@@ -153,4 +153,4 @@ class Item:
     def describe(self):
         """Func desc
         """
-        print(f"The {self.name_item}? Oh, {self.desc}")
+        print(f"Found item: The {self.name_item}? Oh, {self.desc}")
