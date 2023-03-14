@@ -96,13 +96,13 @@ while dead == False:
                             dead = True
                     else:
                         # What happens if you lose?
-                        print("Oh fuck, you lost the fight.")
+                        print("Oh fck, you lost the fight.")
                         print("That's the end... Bye")
                         dead = True
                 else:
-                    print("You lost a " + fight_with + "somewhere... Shit.")
+                    print("You lost a " + fight_with + "somewhere... Sht.")
             else:
-                print("You want to kill a dog, motherfucker?\nWhat do you want really:\
+                print("You want to kill a dog, mthrfckr?\nWhat do you want really:\
  give a bone (give) or not (no)?")
                 choice = input("> ")
                 if choice == "give":
@@ -111,7 +111,7 @@ while dead == False:
                 elif choice == "no":
                     print("Find a bone, looser!")
                 else:
-                    print("Are you deaf? Fuck off!")
+                    print("Are you deaf? Fck off!")
         else:
             print("There is no one here")
 
